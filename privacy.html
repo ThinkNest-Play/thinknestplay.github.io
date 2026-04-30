@@ -4,145 +4,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Privacy Policy | ThinkNest Play</title>
-    <style>
-        :root {
-            --primary-color: #2c3e50;
-            --accent-color: #3498db;
-            --text-color: #333;
-            --bg-color: #f4f7f6;
-            --container-bg: #ffffff;
-        }
-
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
-            color: var(--text-color);
-            background-color: var(--bg-color);
-            margin: 0;
-            padding: 0;
-        }
-
-        .container {
-            max-width: 800px;
-            margin: 40px auto;
-            background: var(--container-bg);
-            padding: 40px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-            border-radius: 8px;
-        }
-
-        header {
-            border-bottom: 2px solid var(--bg-color);
-            margin-bottom: 30px;
-            padding-bottom: 20px;
-        }
-
-        h1 {
-            color: var(--primary-color);
-            margin-top: 0;
-            font-size: 28px;
-        }
-
-        h2 {
-            color: var(--primary-color);
-            font-size: 20px;
-            margin-top: 30px;
-            border-left: 4px solid var(--accent-color);
-            padding-left: 15px;
-        }
-
-        .update-date {
-            color: #7f8c8d;
-            font-size: 0.9em;
-            margin-top: -10px;
-            margin-bottom: 20px;
-        }
-
-        p, li {
-            margin-bottom: 15px;
-        }
-
-        ul {
-            padding-left: 20px;
-        }
-
-        .contact-box {
-            background-color: #e8f4fd;
-            padding: 20px;
-            border-radius: 5px;
-            margin-top: 30px;
-            border: 1px solid #d1e9f9;
-        }
-
-        .contact-box h2 {
-            margin-top: 0;
-            border-left: none;
-            padding-left: 0;
-            font-size: 18px;
-        }
-
-        footer {
-            text-align: center;
-            margin-top: 40px;
-            font-size: 0.8em;
-            color: #95a5a6;
-        }
-
-        @media (max-width: 600px) {
-            .container {
-                margin: 10px;
-                padding: 20px;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+<header class="header">
+    <a href="index.html" class="logo-container">
+        <img src="assets/logo.png" class="logo" alt="ThinkNest">
+        <span class="brand">ThinkNest Play</span>
+    </a>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="games.html">Games</a>
+        <a href="contact.html">Contact</a>
+        <a href="privacy.html" class="active">Privacy</a>
+    </nav>
+</header>
+
 <div class="container">
-    <header>
-        <h1>Privacy Policy</h1>
-        <p class="update-date">Effective Date: May 2026</p>
-    </header>
+    <div class="policy-box">
+        <h1>Global Privacy Policy</h1>
+        <p><strong>Effective Date:</strong> May 1, 2026</p>
+        
+        <p>ThinkNest Play (“we,” “us,” or “our”) provides mobile applications via the Apple App Store and Google Play Store. This document outlines our rigorous standards for data protection and user privacy.</p>
 
-    <p><strong>ThinkNest Play</strong> ("we," "us," or "our") operates mobile games available on the Apple App Store and Google Play Store. This Privacy Policy details our commitment to data transparency and user privacy for our indie game studio operations.</p>
+        <h2>1. Scope of Data Collection</h2>
+        <p>We adhere to the principle of "Data Minimization." We only collect information that is strictly necessary to operate our services:</p>
+        <ul>
+            <li><strong>Service Data:</strong> IP addresses and device metadata (OS version, device model) are processed temporarily to ensure app stability and fix bugs.</li>
+            <li><strong>Monetization Data:</strong> We utilize Apple and Google's native payment systems. We never see or store your credit card details.</li>
+            <li><strong>Advertising Identifiers:</strong> We utilize IDFA (iOS) and AAID (Android) to deliver relevant advertisements through Google AdMob.</li>
+        </ul>
 
-    <h2>1. Information We Collect</h2>
-    <p>To provide a high-quality gaming experience and support our free-to-play model, we collect the following types of information:</p>
-    <ul>
-        <li><strong>In-App Purchase Data:</strong> We do not store financial information. All transactions are processed by Apple or Google. We receive anonymized transaction receipts to unlock digital content.</li>
-        <li><strong>Advertising Identifiers:</strong> We collect mobile advertising IDs (IDFA for iOS and AAID for Android) to serve ads through Google AdMob.</li>
-        <li><strong>Usage Analytics:</strong> We use Firebase to track non-personal data such as level progression, session length, and crash reports to improve performance.</li>
-        <li><strong>Push Notifications:</strong> If opted-in, we collect unique push tokens to send game updates. These tokens do not identify you personally.</li>
-    </ul>
+        <h2>2. Third-Party Integrations</h2>
+        <p>To provide high-performance gaming, we partner with the following entities. Each maintains its own privacy standards:</p>
+        <ul>
+            <li><strong>Google AdMob:</strong> For monetization and personalized advertising.</li>
+            <li><strong>Firebase (Google):</strong> For real-time crash reporting and usage analytics.</li>
+            <li><strong>Apple Game Center / Google Play Games:</strong> For leaderboards and cloud saves.</li>
+        </ul>
 
-    <h2>2. Third-Party Services</h2>
-    <p>Our games utilize third-party SDKs that may collect data independently according to their own privacy policies:</p>
-    <ul>
-        <li><strong>Google AdMob:</strong> For advertising and monetization.</li>
-        <li><strong>Google Firebase:</strong> For analytics and stability monitoring.</li>
-        <li><strong>App Store / Play Store:</strong> For processing payments and leaderboards.</li>
-    </ul>
+        <h2>3. Push Notifications & Local Data</h2>
+        <p>If you grant permission, we may send push notifications to inform you about new levels or updates. You can opt-out at any time through your device settings. All gameplay progress is typically stored locally on your device or via your encrypted Store Cloud (iCloud/Google Drive).</p>
 
-    <h2>3. Your Rights & Data Deletion</h2>
-    <p>We respect international privacy standards, including GDPR and CCPA. While we do not use a centralized user account system, you have the right to request the erasure of data associated with your device identifier.</p>
-    <p><strong>Requesting Deletion:</strong> Users may request the deletion of their associated data by contacting us via the email address listed below. Providing your Advertising ID assists us in locating specific records.</p>
+        <h2>4. Your Legal Rights (GDPR & CCPA)</h2>
+        <p>Regardless of your location, we provide all users the right to:</p>
+        <ul>
+            <li>Request a copy of the data associated with their device ID.</li>
+            <li>Request the permanent deletion of their data from our analytics and ad-partner databases.</li>
+            <li>Opt-out of "Personalized Tracking" directly via device privacy settings.</li>
+        </ul>
 
-    <h2>4. Children's Privacy</h2>
-    <p>Our services are not directed to individuals under the age of 13. We do not knowingly collect personal information from children. If we identify that such data has been collected, it is purged immediately.</p>
+        <h2>5. Data Security</h2>
+        <p>We employ industry-standard encryption and security protocols. While no system is 100% secure, we continuously monitor our third-party SDKs for vulnerabilities to protect our community.</p>
 
-    <h2>5. Changes to This Policy</h2>
-    <p>We may update this policy to reflect changes in our games or legal requirements. We encourage users to check this page periodically.</p>
-
-    <div class="contact-box">
-        <h2>Contact Us</h2>
-        <p>For any privacy-related inquiries, please contact:</p>
-        <p><strong>Email:</strong> thinknest.play@gmail.com</p>
+        <h2>6. Contact & Data Requests</h2>
+        <p>For data deletion requests or privacy inquiries, please contact our Data Privacy Officer at:<br>
+        <strong>Email:</strong> thinknest.play@gmail.com</p>
     </div>
-
-    <footer>
-        &copy; 2026 ThinkNest Play. All rights reserved.
-    </footer>
 </div>
+
+<footer class="footer">
+    © 2026 ThinkNest Play
+</footer>
 
 </body>
 </html>
