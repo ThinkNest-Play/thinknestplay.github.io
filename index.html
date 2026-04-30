@@ -1,20 +1,111 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
   <title>ThinkNest Play</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <style>
     body {
-      font-family: Arial;
-      text-align: center;
-      background: linear-gradient(to right, #4facfe, #43e97b);
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #4facfe, #43e97b);
       color: white;
+      text-align: center;
     }
-    h1 { margin-top: 100px; }
+
+    .container {
+      padding: 40px 20px;
+    }
+
+    .logo {
+      width: 120px;
+      margin-top: 30px;
+    }
+
+    h1 {
+      font-size: 40px;
+      margin: 10px 0;
+    }
+
+    p.tagline {
+      font-size: 18px;
+      opacity: 0.9;
+    }
+
+    .games {
+      margin-top: 50px;
+    }
+
+    .game-card {
+      background: rgba(255,255,255,0.1);
+      backdrop-filter: blur(10px);
+      padding: 20px;
+      border-radius: 15px;
+      margin: 20px auto;
+      width: 280px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    }
+
+    .game-card h3 {
+      margin: 10px 0;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 15px;
+      border-radius: 10px;
+      background: white;
+      color: #333;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    footer {
+      margin-top: 60px;
+      font-size: 14px;
+      opacity: 0.7;
+    }
   </style>
 </head>
+
 <body>
-  <h1>ThinkNest Play 🎮</h1>
-  <p>Smart & Fun Games</p>
-  <p>Coming Soon...</p>
+
+  <div class="container">
+
+    <!-- LOGO -->
+    <img src="logo.png" class="logo">
+
+    <!-- TITLE -->
+    <h1>ThinkNest Play</h1>
+    <p class="tagline">Smart & Fun Games</p>
+
+    <!-- GAMES SECTION -->
+    <div class="games">
+
+      <h2>Our Games 🎮</h2>
+
+      <div class="game-card">
+        <h3>Word Puzzle</h3>
+        <p>Relax and train your brain</p>
+        <a href="#" class="btn">Coming Soon</a>
+      </div>
+
+      <div class="game-card">
+        <h3>More Games</h3>
+        <p>Launching soon...</p>
+        <a href="#" class="btn">Stay Tuned</a>
+      </div>
+
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+      © 2026 ThinkNest Play
+    </footer>
+
+  </div>
+
 </body>
 </html>
